@@ -2,6 +2,5 @@
 define KMACHINE common-pc
 define KMACHINE xbox
 define KTYPE tiny
-define KARCH i386
-
-branch common-pc
+define KARCH i586
+kconf hardware xbox.cfg
